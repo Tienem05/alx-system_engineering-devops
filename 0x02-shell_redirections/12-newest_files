@@ -1,2 +1,2 @@
 #!/bin/bash
-find grep -type f -printf "%t - %p\n" | sort -M | tail -10
+ls -t | head
